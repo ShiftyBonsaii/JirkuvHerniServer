@@ -46,16 +46,7 @@ header h2 {
 
 #home-image {
     height: 500px;
-    background-image: url('lolifbi.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 20px;
-}
-
-#additional-image {
-    height: 500px;
-    background-image: url('dalsi-obrazek.jpg');
+    background-image: url('Wallpaper.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
