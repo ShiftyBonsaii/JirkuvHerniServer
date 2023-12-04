@@ -5,7 +5,7 @@
                 format: "dropdown",
                 sticky: false
             }, options);
-        return this.each(function() {
+        return this.each(function() { 
             $(this).find(".button").on('click', function() {
                 $(this).toggleClass('menu-opened');
                 var mainmenu = $(this).next('ul');
