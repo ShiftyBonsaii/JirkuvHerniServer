@@ -1,1 +1,3 @@
 # JirkuvHerniServer
+
+herniserverjirka.rf.gd
