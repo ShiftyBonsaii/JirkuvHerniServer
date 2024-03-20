@@ -19,22 +19,3 @@ document.addEventListener('DOMContentLoaded', function() {
       page.classList.add('menuopen');
   });
 
-var links = document.querySelectorAll('a[href^="#"]');
-
-  links.forEach(function(link) {
-      link.addEventListener('click', function(event) {
-
-          event.preventDefault();
-
-
-          var targetId = this.getAttribute('href');
-          var targetElement = document.querySelector(targetId);
-
-          if (targetElement) {
-              targetElement.scrollIntoView({
-                  behavior: 'smooth'
-              });
-          }
-      });
-  });
-});
