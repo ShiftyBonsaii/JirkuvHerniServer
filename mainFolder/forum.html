@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JHS Fórum</title>
+        <link rel="stylesheet" href="indexCSS.css"> 
+        <link rel="stylesheet" href="forum.css"> 
+    </head>
+    <body>
+        <header id="myHeader" class="">
+            <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 714.6 401.1">
+                <path fill="#fff" fill-rule="evenodd" d="M502.8 0h211.8l-23 39.7-138.5 240L483 401H342.7L413 279.6 251.4 0h140.3L483 158.1 538.6 62 502.8 0Zm-201 279.6L140.1 0H0l231.7 401 70-121.4Z"/>
+            </svg>
+            <nav>
+                <a href="#vision">Servery</a>
+                <a href="#knowledge">Dynmapa</a>
+                <a href="index.html">Home</a>
+                <a href="registrace.html">Shop</a>
+                <a href="gallery.html">Galerie</a>
+
+                <button id="openmenu">
+                <span></span>
+                <span></span>
+                </button>
+            </nav>
+        </header>  
+        <h1>Vítej na JHS fóru!</h1>
+        <br>
+        <br>
+        <div id="topic-list">
+        </div>
+        <br>
+        <button id="new-topic-btn">Nové téma</button>
+
+        <div id="new-topic-form" style="display: none;">
+            <br>
+            <h2>Vytvořit téma</h2>
+            <input type="text" id="topic-title" placeholder="Název">
+            <textarea id="topic-content" placeholder="Obsah"></textarea>
+            <button id="submit-topic-btn">Zveřejnit</button>
+            <button id="back-to-topics-btn">Zpět</button>
+        </div>
+
+        <div id="topic-discussion" style="display: none;">
+            <h2 id="discussion-title"></h2>
+            <div id="discussion-content"></div>
+            <h3>Komentáře</h3>
+            <div id="comments-list"></div>
+            <textarea id="comment-content" placeholder="Add a comment"></textarea>
+            <button id="submit-comment-btn">Komentovat</button>
+            <button id="back-to-topics-btn">Zpět</button>
+        </div>
+
+        <footer>
+            <a href="kontakty.html" style="color:darkgray">Kontakt</a>
+            <a>&nbsp;&nbsp;&nbsp;</a>
+            <a href="forum.html" style="color:darkgray">Fórum</a>
+            <a>&nbsp;&nbsp;&nbsp;</a>
+            <a href="zalohy.html" style="color:darkgray">Zálohy</a>
+            <a>&nbsp;&nbsp;&nbsp;</a>
+            <a href="mody.html" style="color:darkgray">Mody</a>
+            <a>&nbsp;&nbsp;&nbsp;</a>
+            <a href="#" id="open_preferences_center">Update cookies preferences</a>
+                    <a>&nbsp;&nbsp;&nbsp;</a>
+        </footer>
+    </body>
+</html>
+
+  <script src="forum.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"cs","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Jirkuv Herní Sever"});
+});
+</script>
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
